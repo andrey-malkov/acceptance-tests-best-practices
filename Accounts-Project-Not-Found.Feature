@@ -3,9 +3,9 @@ Feature: Inform a migration operator of Accounts migration project does not exis
 
 Background: xCloud tenants are configured
     Given The tenants are added using Tenants management page
-	| Tenant                           | Admin  | Id                                   | Consent    |
-	| msteamsalin.onmicrosoft.com	   | odmmst | 856ad5a2-c756-44c7-a4de-a56723367c1a | granted	|
-	| elaverev.onmicrosoft.com         | odmmst | 3d56f088-b2c3-408e-8d4b-3522f290f85e | granted	|
+	| Tenant                        | Admin  | Id                                   | Consent   |
+	| msteamsalin.onmicrosoft.com   | odmmst | 856ad5a2-c756-44c7-a4de-a56723367c1a | granted	|
+	| elaverev.onmicrosoft.com      | odmmst | 3d56f088-b2c3-408e-8d4b-3522f290f85e | granted	|
 
 Scenario: Accounts migration project for source and target tenants does not exist
     Given Teams Accounts Provisioning migration project is created
